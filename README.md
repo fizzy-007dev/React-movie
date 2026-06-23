@@ -29,6 +29,11 @@ This project is built to practice React fundamentals such as components, props, 
 - API integration with TMDB
 - Component-based React structure
 
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for more details.
+
 ## Folder Structure
 
 ```text
@@ -52,8 +57,3 @@ React-vite/
 ├── README.md
 ├── eslint.config.js
 └── vite.config.js
-
-## License
-
-This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for more details.

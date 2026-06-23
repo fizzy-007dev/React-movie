@@ -1,4 +1,4 @@
-const API_KEY = "41d8525d37e5af62f5817c1d515fd3ca";
+const API_KEY = "$######"; //REPLACE WITH YOUR API KEY FROM THE SITE
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // Function to fetch popular movies from TMDb API

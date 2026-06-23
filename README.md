@@ -1,16 +1,54 @@
-# React + Vite
+# MovieFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieFlix is a React + JavaScript movie search web app built using Vite.  
+It uses the TMDB API to search movies and display movie information in a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+MovieFlix allows users to search for movies by name and view related movie results.  
+The app fetches movie data from The Movie Database API and displays details such as movie title, poster, release date, and overview.
 
-## React Compiler
+This project is built to practice React fundamentals such as components, props, state, API calls, rendering lists, and handling user input.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- HTML
+- CSS
+- TMDB API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Search movies by title
+- Display movie posters
+- Show movie title and release date
+- Show movie overview
+- Responsive UI
+- API integration with TMDB
+- Component-based React structure
+
+## Folder Structure
+
+```text
+React-vite/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── css/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── eslint.config.js
+└── vite.config.js

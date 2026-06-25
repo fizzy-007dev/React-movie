@@ -24,7 +24,6 @@ This project is built to practice React fundamentals such as components, props, 
 - Search movies by title
 - Display movie posters
 - Show movie title and release date
-- Show movie overview
 - Responsive UI
 - API integration with TMDB
 - Component-based React structure
